@@ -10,3 +10,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.BigCounter{
+    display: flex;
+    justify-content: space-between;
+    background: steelblue;
+    border: black solid 1px;
+    width: 380px;
+    height: 150px;
+    text-decoration: aliceblue;
+    align-items: center;
+    
+
+}
+.tittle{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+}
+.Segundos{
+  margin-right: 15px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+}
+button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
